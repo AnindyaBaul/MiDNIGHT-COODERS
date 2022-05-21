@@ -1,0 +1,471 @@
+body {
+    background-color: black !important;
+    color: aliceblue!important;
+   
+
+  
+}
+section{
+    margin-block: 100px;
+}
+
+.sec1{
+
+    /* height: 600px;remove iteme 1 */
+}
+.bg1-color{
+    height: 200px;
+    background: url(./image/2822.jpg)no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.bg1{
+   
+    background-color: rgba(0, 0, 0, 0.577);
+
+    height: 200px;
+    
+    padding-top: 50px;
+   
+}
+
+.bg1 h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    text-align: center;
+    color: wheat;
+    border: 3px solid wheat;
+    background-color: rgba(245, 222, 179, 0.149);
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+ 
+}
+.well-come{
+    display:flex;
+    justify-content:space-around;
+}
+.well-text{
+    width: 600px;
+}
+.well-text h2{
+   
+    font-size: 60px;
+    font-family: 'Abril Fatface', cursive;
+}
+h2 span{
+    color: wheat;
+}
+
+
+.sec3{
+    /* width: 90%;
+    margin: auto; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-left: 80px;
+    align-items: center;
+  
+}
+.sec3 h2{
+    width: 400px;
+    margin-left: 120px;
+    font-size: 80px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.sec3 ul {
+    width: 600px;
+    height: 300px;
+    color: wheat;
+}
+
+.block-chain h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    font-size: 72px;
+    background: -webkit-linear-gradient(wheat, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.block-chain span{
+  color: rgb(238, 32, 100);
+}
+
+.sec4{
+    background: url(./image/pexels-manuel-geissinger-325229.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 300px;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+font-family: 'Abril Fatface', cursive;
+}
+.sec4 div{
+    background-image: linear-gradient(rgba(245, 222, 179, 0.274),rgba(0, 0, 0, 0.17));
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+.sec4 h1{
+    font-size: 70px;
+  
+}
+.sec4 small{
+    font-size: 30px;
+    color: wheat;
+}
+
+.sec4 button{
+   border: 2px solid white;
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.sec4 button:hover{
+    color: black;
+    background-color: wheat;
+    border: 0;
+}
+#sec-js-bg{
+    background: url(./image/1.jpg)no-repeat;
+    background-size: 100%;
+   height:800px;
+   /* background-repeat: no-repeat; */
+   background-position: left;
+}
+.sec-js{
+  
+    height: 800px;
+    display: flex;
+}
+.box-js{
+    border: 1px solid silver;
+    flex-grow:1 ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  
+}
+.box-js-text{
+   
+  width: 200px;
+  height: 40px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  
+}
+.box-js:hover .box-js-text{
+    height: 300px;
+}
+.box-js:hover{
+    background-color: rgba(0, 0, 0, 0.674);
+}
+
+
+
+
+.dev-section {
+    /* margin-top: 200px; */
+    margin-bottom: 100px;
+}
+
+.dev-section h1 {
+    text-align: center;
+    color: snow;
+    font-family: 'Bebas Neue', cursive;
+    /* margin-top: 40px; */
+    font-size: 80px;
+    letter-spacing: 8px;
+    margin-bottom: 60px;
+
+}
+
+.section-card {
+    background: url(./image/862304.png)no-repeat;
+    background-size: 100%;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    margin-inline: auto;
+    box-shadow: 0 0 20px wheat;
+    border-radius: 50%;
+
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.card-details {
+    background: transparent;
+    color: wheat;
+}
+
+.card-details h1, .card-details p, .card-details small {
+    text-align: center;
+}
+
+.dev-img1 {
+    /* height: 300px; */
+    width: 500px;
+
+
+}
+
+.dev-img1 img {
+    width: 100%;
+    border-radius: 0 50%;
+}
+
+.dev-section h3 {
+    font-family: 'Poppins', sans-serif;
+    color: snow;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.dev-section p, ul {
+    color: cornflowerblue;
+    font-size: 20px;
+    width: 70%;
+}
+
+.dav-details {
+    padding-left: 80px;
+}
+
+.dav-details i {
+    color: orange;
+}
+
+.dav-details small {
+    color: teal;
+}
+
+.dev-card {
+    height: 750px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid wheat;
+    box-shadow: 0 0 15px wheat;
+
+
+
+}
+.dev-card button {
+    width: 180px;
+    height: 50px;
+    border: 3px solid wheat;
+    color: wheat;
+    background-color: transparent;
+    font-size: 20px;
+    letter-spacing: 8px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0 0 15px wheat;
+
+}
+
+.dev-card button:hover {
+    background-color: wheat;
+    color: black;
+}
+
+
+footer {
+    background-color: black;
+    height: 150px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.earth {
+
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+}
+
+.img {
+
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    bottom: 2px;
+
+}
+
+.later {
+    letter-spacing: 8px;
+
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.icons a {
+    color: wheat;
+    text-decoration: none;
+
+
+}
+
+.icons {
+    position: relative;
+    top: 30px;
+
+}
+
+.later p {
+    position: relative;
+    top: 7px;
+}
+
+.search-area input {
+    background: transparent !important;
+    border-color: wheat;
+    color: wheat !important;
+    outline: 1px solid wheat !important;
+    border-radius: 13px;
+}
+
+.search-area button {
+    color: wheat;
+    border-color: wheat;
+    border-radius: 15px;
+
+}
+
+.search-area button:hover {
+    background-color: wheat;
+    color: black;
+}
+
+.logo {
+    transform: scale(1.3);
+    margin-left: 13px;
+
+}
+
+
+nav {
+    background-color: black !important;
+    color: wheat;
+
+
+}
+
+nav a {
+    text-decoration: none !important;
+    color: wheat !important;
+    margin-left: 64px;
+}
+
+.services li {
+    background-color: black;
+    text-align: left !important;
+    padding: 10px;
+
+}
+
+.services .srv a:hover {
+    background-color: wheat !important;
+    color: black !important;
+}
+
+.services {
+    background-color: black !important;
+
+}
+
+.services a {
+    margin: 0 !important;
+}
+.dev-section p, ul {
+    color: cornflowerblue;
+    font-size: 20px;
+    width: 70%;
+}
+.info-m{
+    display: flex;
+}
+
+
+.icons-info i{
+    color: wheat;
+    text-decoration: none;
+    font-size: 60px;
+    display: block;
+    border-radius: 100%;
+    box-shadow: 0 0 30px wheat;
+    
+    
+}
+
+.icons-info  {
+   display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+
+
+
+}
+
+.find-us{
+   flex-grow: 1;
+}
+.find-us span{
+  color: wheat;
+}
+.find-us h1{
+text-align: center;
+font-size: 70px;
+font-family: 'Abril Fatface', cursive;
+}
+.info-js{
+    border: 2px solid red;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.slide-js{
+    border: 3px solid red;
+    width: 0px;
+    overflow:hidden ;
+    transition: 1s ease-in-out;
+}
+.slide-js p{
+   font-size: 50px;
+   color: wheat;
+}
